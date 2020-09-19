@@ -1,0 +1,171 @@
+* { 
+	margin: 0; 
+	padding: 0;
+	font-family: 'Montserrat', sans-serif;
+}
+body {
+	width: 1000px;
+	margin: 0 auto;
+	background-color: black;
+}
+header{
+	height: 100px;
+	width: 1000px;
+	line-height: 100px;
+	background-color: black;
+	color: yellow;
+	font-size: 30pt;
+	text-align: center;
+	position: fixed;
+	top: 0;
+	z-index: 999;
+}
+
+#content{
+	margin-top: 100px;
+	width: 1000px;
+	height: 600px;
+	z-index: -1;
+}
+
+#section{
+	margin: 0 100px;
+	height: 600px;
+	background-color: white;
+	overflow: hidden;
+	position: relative;
+}
+#start{
+	width: 160px;
+	height: 50px;
+	color: yellow;
+	background-color: black;
+	text-align: center;
+	line-height: 50px;
+	font-size: 28pt;
+	display: block;
+	position: absolute;
+	top: 275px;
+	left: 320px;
+}
+#skip{
+	width: 90px;
+	height: 35px;
+	line-height: 35px;
+	font-size: 20pt;
+	color: yellow;
+	background-color: black;
+	text-align: center;
+	display: none;
+	position: absolute;
+	right: 10px;
+	top: 10px;
+}
+#myCanvas{
+	display: block;
+}
+#story{
+	display: none;
+	width: 780px;
+	height: 70px;
+	line-height: 70px;
+	text-align: center;
+	font-size: 15pt;
+	color: yellow;
+	background-color: black;
+	position: absolute;
+	bottom: 10px;
+	left: 10px;
+}
+.progress{
+	display: none;
+	position: absolute;
+	background-color: blue;
+	top: 100px;
+
+	width: 60px;
+	height: 60px;
+	line-height: 60px;
+	text-align: center;
+	border-radius: 50%;
+	color: white;
+	font-size: 30pt;
+}
+#progress1{
+	left: 155px;
+}
+#progress2{
+	left: 370px;
+}
+#progress3{
+	right: 155px;
+}
+.settings{
+	display: none;
+	position: relative;
+}
+.options{
+	width: 200px;
+	height: 200px;
+	line-height: 200px;
+	background-color: blue;	
+	position: absolute;
+	top: 280px;
+	font-size: 25pt;
+	color: white;
+	text-align: center;
+}
+#paddle1,#music1,#level1{
+	left: 50px;
+}
+#paddle2,#music2,#level2{
+	left: 300px;
+}
+#paddle3,#music3,#level3{
+	left: 550px;
+}
+#result{
+	width: 400px;
+	height: 100px;
+	line-height: 100px;
+	background-color: blue;
+	position: absolute;
+	top: 80px;
+	left: 200px;
+	display: none;
+	font-size: 25pt;
+	text-align: center;
+	color: white;
+}
+#retry{
+	width: 200px;
+	height: 200px;
+	line-height: 200px;
+	background-color: blue;
+	position: absolute;
+	top: 280px;
+	left: 133px;
+	display: none;
+	font-size: 25pt;
+	text-align: center;
+	color: white;
+}
+#advance{
+	width: 200px;
+	height: 200px;
+	line-height: 200px;
+	background-color: blue;
+	position: absolute;
+	top: 280px;
+	left: 466px;
+	display: none;
+	font-size: 25pt;
+	text-align: center;
+	color: white;
+}
+#image{
+	display: none;
+	position: absolute;
+	top: 50px;
+	left: 200px;
+}
